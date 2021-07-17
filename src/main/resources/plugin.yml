@@ -1,0 +1,27 @@
+name: AndyEssentials
+version: ${project.version}
+main: me.andyw19.andyessentials.AndyEssentials
+api-version: 1.17
+prefix: AndyEssentials
+authors: [ AndyW19 ]
+description: Basic commands/features that are essential for minecraft multiplayer
+commands:
+  hello:
+    description: Test Command
+    usage: /<command>
+    permission: andyessentials.test
+  gm:
+    description: Set gamemode
+    usage: /<command>
+    permission: andyessentials.gm
+    aliases: [ GM ]
+  god:
+    description: Enable/Disable God mode
+    usage: /<command>
+    permission: andyessentials.god
+    aliases: [ GOD ]
+  killall:
+    description: Killall mobs nearby
+    usage: /<command>
+    permission: andyessentials.killall
+    aliases: [ KILLALL ]
